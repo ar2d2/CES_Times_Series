@@ -16,22 +16,22 @@ Then data can be loaded via pgAdmin or other tool via Import/Export Data.
 
 Table Creation.sql contains the following tables:
 
-1. AllCESSeries
-2. Government_Employment
-3. datatype
-4. footnote
-5. industry
-6. period
-7. seasonal
-8. series
-9. supersector
+  1. AllCESSeries
+  2. Government_Employment
+  3. datatype
+  4. footnote
+  5. industry
+  6. period
+  7. seasonal
+  8. series
+  9. supersector
 
 Views Creation.sql contains the following views:
 
-1.Women_Goverment
-2.Production_Employees
-3.Non_Production_Employees
-4.Ratio_Production_Employees
+  1. Women_Goverment
+  2. Production_Employees
+  3. Non_Production_Employees
+  4. Ratio_Production_Employees
 
 # Data can be retrieved via PostgREST
 
@@ -39,7 +39,7 @@ The file employment.conf contains the connection data to the AWS PostgreSQL Data
 
 The commands to retrieve the required data are:
 
-curl http://localhost:3000/Women_Goverment
+"curl http://localhost:3000/Women_Goverment"
 
-curl http://localhost:3000/Ratio_Production_Employees
+"curl http://localhost:3000/Ratio_Production_Employees"
 
