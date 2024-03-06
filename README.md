@@ -35,9 +35,19 @@ Views Creation.sql contains the following views:
 
 # Data can be retrieved via PostgREST
 
+Assuming PostgreSQL and PostgREST are already setup.
+
 The file employment.conf contains the connection data to the AWS PostgreSQL Database.
 
-The commands to retrieve the required data are:
+To retrieve the data is only required ot copy employment.conf to PostgREST folder.
+
+# Running postgrest installed from a package manager
+postgrest employment.conf
+
+# Running postgrest binary
+./postgrest employment.conf
+
+As in the CMD the commands to retrieve the required data are:
 
 "curl http://localhost:3000/Women_Goverment"
 
