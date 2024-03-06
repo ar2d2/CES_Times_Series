@@ -41,10 +41,12 @@ The file employment.conf contains the connection data to the AWS PostgreSQL Data
 
 To retrieve the data is only required ot copy employment.conf to PostgREST folder.
 
-# Running postgrest installed from a package manager
+##Running postgrest installed from a package manager##
+
 postgrest employment.conf
 
-# Running postgrest binary
+##Running postgrest binary##
+
 ./postgrest employment.conf
 
 As in the CMD the commands to retrieve the required data are:
